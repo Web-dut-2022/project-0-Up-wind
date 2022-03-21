@@ -18,20 +18,6 @@ input[type=text] {
     width: 93%;
 }
 
-input.blue-button {
-    /* background-color: dodgerblue; */
-    /* color: white; */
-    /* font-size: smaller; */
-    /* max-width: 200px; */
-    /* border-radius: 0px; */
-    /* border: 1px solid #156bbd; */
-    width: 10%;
-    float: right;
-    padding: 10px 20px;
-    margin: 0;
-}
-
-
 .header{
     background-color: rgba(211, 211, 211, 0.2);
 }
@@ -70,7 +56,6 @@ input.blue-button {
     margin: 50px 30px;
 }
 
-
 .separator-line {
     border-bottom: solid 1px #afafaf;
 }
@@ -99,27 +84,43 @@ input.blue-button {
     border-radius: 25px;
 }
 
+.footer {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(77, 72, 72);
+    font-size: 13px;
+}
+
 
 .advanced-search-container {
-    margin: 50px 40px;
+    margin: 40px 40px;
 }
 
 .advanced-search-container label {
     display: inline-block;
     width: 16%;
-    font-size: 20px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.advanced-search-container .todo {
+    color: #afafaf;
+    font-weight: bold;
 }
 
 .advanced-search-container .whitespace {
     display: inline-block;
-    width: 50%;
+    width: 38%;
 }
 
 .advanced-search-container .form-group {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    padding: 10px 0;
+    margin-top: 5px;
+    padding: 5px 0;
 }
 
 .advanced-search-container .form-group label {
@@ -128,20 +129,27 @@ input.blue-button {
 }
 
 .advanced-search-container .form-group input[type=text] {
-    width: 49%;
+    width: 35%;
     padding: 2px 0;
 }
 
 .advanced-search-container .form-group .clarification {
     font-size: 11px;
     width: 30%;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
-.advanced-search-container .form-group .clarification .monospace {
+.advanced-search-container .form-group .clarification .diffont {
     font-family: monospace;
 }
 
 .advanced-search-container .form-group .right-align {
     width: 50%;
+}
+
+input.search-button {
+    width: 8%;
+    float: right;
+    padding: 10px 28%;
+    margin: 0;
 }
